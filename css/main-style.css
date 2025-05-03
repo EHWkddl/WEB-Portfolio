@@ -107,7 +107,6 @@ button:hover {
   text-align: center;
   height: 100vh;
   position: relative;
-  /*margin-top: 60px; / 네비게이션 아래 공간 확보 */
 }
 
 .hero-content {
@@ -169,7 +168,7 @@ button:hover {
 
 .photo-view {
   width: 300px;
-  height: 250px; /* 고정 높이 */
+  height: 250px; 
   margin-top: 10px;
   overflow: hidden;
   position: relative;
