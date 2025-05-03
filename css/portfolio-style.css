@@ -1,4 +1,4 @@
-/* 공통 초기화 */
+/* 초기화 */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,7 +10,7 @@ body {
   color: #333;
   font-size: 16px;
   line-height: 1.5;
-  padding-top: 80px; /* 헤더 가림 방지용 여백 */
+  padding-top: 80px; /* 헤더 가림 방지 여백 */
 }
 
 ul {
@@ -22,7 +22,7 @@ ul {
   color: black;
   color: black;
   height: 60px;
-  position: fixed; /* 고정되도록 */
+  position: fixed; /* 고정 */
   width: 100%;
   top: 0;
   left: 0;
@@ -67,7 +67,7 @@ ul {
   color: #ddd;
 }
 
-/*폼 전용 영역*/
+/*폼 영역*/
 
 #formtest {
   background-color: #31363f;
@@ -202,14 +202,14 @@ article #flexbox {
 
 .item img {
   width: 100%;
-  max-width: 300px; /* 원하는 최대 너비 */
+  max-width: 300px;
   height: auto;
   border-radius: 10px;
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Boxes */
+/* 박스 */
 
 #boxes {
   margin-top: 90px;
@@ -228,7 +228,7 @@ article #flexbox {
   border-radius: 30px;
 }
 
-/* Footer */
+
 footer {
   padding: 10px;
   margin-top: 20px;
@@ -237,7 +237,7 @@ footer {
   text-align: center;
 }
 
-/* Media Quaries  */
+
 @media (max-width: 768px) {
   .navbar .container {
     flex-direction: column;
