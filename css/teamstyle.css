@@ -104,7 +104,7 @@ tr:nth-child(even) {
   color: #94ac8a;
 }
 
-/* Footer 스타일 */
+/* Footer */
 footer {
   padding: 20px 0;
   margin-top: 80px;
@@ -115,7 +115,6 @@ footer {
   font-size: 14px;
 }
 
-/* 버튼 */
 button {
   background-color: lightgrey;
   padding: 5px 10px;
@@ -152,7 +151,7 @@ button {
   color: white;
 }
 
-/* 제목 및 그리드 */
+/* 그리드 */
 .web-title {
   text-align: center;
   margin: 15px;
@@ -204,7 +203,7 @@ button {
   font-weight: bold;
 }
 
-/* 애니메이션 */
+
 .animation {
   animation-duration: 3s;
   animation-name: slidein;
@@ -239,7 +238,7 @@ button {
   font-size: 36px;
 }
 
-/* 미디어 쿼리 */
+
 @media (max-width: 768px) {
   .navbar .container {
     flex-direction: column;
