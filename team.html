@@ -8,7 +8,6 @@
   </head>
 
   <body>
-    <!-- 메뉴 -->
     <nav class="navbar">
       <div class="container">
         <div class="logo">୨୧ MIN ୨୧</div>
@@ -20,72 +19,115 @@
         </ul>
       </div>
     </nav>
-    <script src="main.js"></script>
 
     <section class="grid">
-      <div class="web-title">
-        <div class="animation">
-          <h1>TEAM PROJECTES</h1>
-          <h3>DevWithAI </h3>
-          <p>
-            AI를 기반한 웹 페이지가 흥행되고 있는 현대 시대, 최신 생성형 AI 도구들을 활용한 웹 개발 트렌드를 소개하는 페이지입니다.
-          </p>
-          <p>이 페이지는 HTML, CSS와 소량의 JS를 이용해 만들어졌습니다.</p>
+      <div class="content-wrapper">
+        <div class="web-title">
+          <div class="animation">
+            <h1>TEAM PROJECT : DevWithAI</h1>
+            <h3>AI와 함께하는 웹 개발 트렌드 소개</h3>
+            <p>
+              AI를 기반한 웹 페이지가 흥행하고 있는 현대 시대, 최신 생성형 AI
+              도구들을 활용한 웹 개발 트렌드를 소개하는 페이지입니다.
+            </p>
+          </div>
         </div>
-        <button class="ggo">
-          <a
-            href="https://team-project-rho-one.vercel.app/"
-            style="text-decoration: none"
-            class="web"
-            >홈페이지 구경하기</a
-          >
-        </button>
-        <br /><br /><br />
-      </div>
 
-    <div class="teamtable">
-      <h2>팀원 소개</h2>
-      <table>
-        <tr>
-          <th>이름</th>
-          <th>학과</th>
-          <th>학번</th>
-          <th>git 주소</th>
-        </tr>
-        <tr>
-          <td>정효민</td>
-          <td>정보보호학과</td>
-          <td>92410914</td>
-          <td>
-            <button class="go">
-              <a
-                href="https://github.com/EHWkddl"
-                style="text-decoration: none"
-                class="ago"
-                >바로가기</a
-              >
-            </button>
-          </td>
-        </tr>
-        <tr>
-          <td>이예빈</td>
-          <td>정보보호학과</td>
-          <td>92410859</td>
-          <td>
-            <button class="go">
-              <a
-                href="https://github.com/yebeen547"
-                style="text-decoration: none"
-                class="ago"
-              >
-                바로가기</a
-              >
-            </button>
-          </td>
-        </tr>
-      </table>
-      <br /><br /><br /><br />
-    </div>
+        <div class="project-details">
+          <div class="detail-item">
+            <h4>프로젝트 목표</h4>
+            <p>
+              최신 AI 웹 개발 도구를 직접 사용해보고, 그 경험을 바탕으로 다른
+              개발자/입문자들에게 유용한 정보를 제공하는 것을 목표로 했습니다.
+            </p>
+          </div>
+          <div class="detail-item">
+            <h4>주요 기능</h4>
+            <ul>
+              <li>- 반응형 레이아웃을 적용한 소개 페이지</li>
+              <li>- 관련 AI 뉴스를 볼 수 있는 뉴스 페이지</li>
+              <li>- AI 개발 트렌드 및 도구 정보 제공</li>
+              <li>- 팀원 및 프로젝트 비전 소개</li>
+            </ul>
+          </div>
+          <div class="detail-item">
+            <h4>사용 기술</h4>
+            <ul>
+              <li>- HTML5</li>
+              <li>- CSS3 (Flexbox, Grid)</li>
+              <li>- JavaScript</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-link-button">
+          <a
+            href="https://mid-teamproject-jbu.vercel.app/"
+            class="web"
+            target="_blank"
+            >웹사이트 방문하기</a
+          >
+        </div>
+
+        <div class="team-story">
+          <h2>Our Story</h2>
+          <p>
+            'DevWithAI' 팀은 AI 기술이 웹 개발에 미치는 영향에 대한 공통된
+            호기심으로 모였습니다. 저희는 이 프로젝트를 통해 단순히 코드를
+            작성하는 것을 넘어, 어떻게 하면 더 효율적으로 협업하고 창의적인
+            결과물을 만들 수 있을지 함께 고민했습니다. 이 페이지는 그 여정의 첫
+            번째 결과물입니다.
+          </p>
+        </div>
+
+        <div class="team-members-container">
+          <h2>Our Team</h2>
+          <div class="team-cards">
+            <div class="team-card">
+              <img
+                src="image/정효민증사.jpg"
+                alt="정효민 프로필 사진"
+                class="profile-pic"
+              />
+              <h3>정효민</h3>
+              <p class="role">Frontend Developer & Team Leader</p>
+              <p class="bio">
+                "사용자에게 즐거운 경험을 주는 프론트엔드 개발자가 되고
+                싶습니다."
+              </p>
+              <div class="social-links">
+                <a href="https://github.com/EHWkddl" class="ago" target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+
+            <div class="team-card">
+              <img
+                src="/image/이예빈증사.jpg"
+                alt="이예빈 프로필 사진"
+                class="profile-pic"
+              />
+              <h3>이예빈</h3>
+              <p class="role">UI/UX Designer & Researcher</p>
+              <p class="bio">
+                "직관적이고 아름다운 디자인으로 서비스의 가치를 높이는 데
+                기여합니다."
+              </p>
+              <div class="social-links">
+                <a
+                  href="https://github.com/yebeen547"
+                  class="ago"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <p>Copyright &copy; 2025, 중부대학교 정보보호학과 정효민</p>
     </footer>
